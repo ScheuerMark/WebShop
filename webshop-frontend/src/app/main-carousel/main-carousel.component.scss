@@ -1,0 +1,18 @@
+img{
+    height: 800px;
+    width: 100%;
+    object-fit: cover;
+}
+a{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    cursor: pointer;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
