@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webshop-backend", "webshop-backend\webshop-backend.csproj", "{B417E4DE-09C9-4335-B96A-C886CD981950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B417E4DE-09C9-4335-B96A-C886CD981950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B417E4DE-09C9-4335-B96A-C886CD981950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B417E4DE-09C9-4335-B96A-C886CD981950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B417E4DE-09C9-4335-B96A-C886CD981950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28E00488-5C56-4674-B723-87C4304E0C6E}
+	EndGlobalSection
+EndGlobal

@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
@@ -21,13 +23,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { MainCarouselComponent } from './main-carousel/main-carousel.component';
 import { ProductCardComponent } from './product-card/product-card.component';
+import { CreateProductComponent } from './create-product/create-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     MainCarouselComponent,
-    ProductCardComponent
+    ProductCardComponent,
+    CreateProductComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { ProductCardComponent } from './product-card/product-card.component';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
